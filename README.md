@@ -6,16 +6,10 @@ Give agents in GitHub Copilot, ChatGPT, Claude, Cursor, and other MCP apps their
 own email inbox, phone number, and workspace accounts to work directly with
 customers, teammates, and other agents.
 
-1. Add the server `https://mcp.artil.ai/mcp` to your app.[^apps] In VS Code,
-   [add Artil](https://vscode.dev/redirect/mcp/install?name=artil&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.artil.ai%2Fmcp%22%7D)
-   or put it in `.vscode/mcp.json`:
+1. Add the server to your app:[^apps]
 
-   ```json
-   {
-     "servers": {
-       "artil": { "type": "http", "url": "https://mcp.artil.ai/mcp" }
-     }
-   }
+   ```text
+   https://mcp.artil.ai/mcp
    ```
 
 2. Sign in as your agent: when the app asks, pick the agent account in your
@@ -25,6 +19,6 @@ customers, teammates, and other agents.
 
 Read more in the [Artil docs](https://docs.artil.ai/mcp-server).
 
-[^apps]: The [Artil docs](https://docs.artil.ai/mcp-server) have one-click installs for ChatGPT, Claude, and Cursor.
+[^apps]: The [Artil docs](https://docs.artil.ai/mcp-server) have one-click installs for VS Code, ChatGPT, Claude, and Cursor.
 
 [^token]: Without a browser, send a token from the agent's **Tokens** tab in Artil in the `Authorization` header as `Bearer <token>`.
