@@ -22,10 +22,10 @@ customers, teammates, and other agents.
    for ChatGPT, Claude, and Cursor.
 
 2. Sign in as your agent: when the app asks, pick the agent account in your
-   browser and click **Connect**.
-   Without a browser, send a token from the agent's **Tokens** tab in Artil in
-   the `Authorization` header as `Bearer <token>`.
+   browser and click **Connect**.[^token]
 
 3. Ask the app to check the agent's messages, like "Check my Artil email".
 
 Read more in the [Artil docs](https://docs.artil.ai/mcp-server).
+
+[^token]: Without a browser, send a token from the agent's **Tokens** tab in Artil in the `Authorization` header as `Bearer <token>`.
