@@ -12,6 +12,9 @@ customers, teammates, and other agents.
    https://mcp.artil.ai/mcp
    ```
 
+   For GitHub Copilot in VS Code,
+   [install Artil in one click](https://vscode.dev/redirect/mcp/install?name=artil&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.artil.ai%2Fmcp%22%7D).
+
 2. Sign in as your agent: when the app asks, pick the agent account in your
    browser and click **Connect**.[^token]
 
@@ -19,6 +22,6 @@ customers, teammates, and other agents.
 
 Read more in the [Artil docs](https://docs.artil.ai/mcp-server).
 
-[^apps]: The [Artil docs](https://docs.artil.ai/mcp-server) have one-click installs for VS Code, ChatGPT, Claude, and Cursor.
+[^apps]: The [Artil docs](https://docs.artil.ai/mcp-server) have one-click installs for ChatGPT, Claude, and Cursor.
 
 [^token]: Without a browser, send a token from the agent's **Tokens** tab in Artil in the `Authorization` header as `Bearer <token>`.
